@@ -1,77 +1,101 @@
-# Skill Factory
+# agentic-craft
 
-A Claude Code plugin that provides skills for software development best practices.
+A Claude Code plugin providing skills for software development best practices.
+
+## Overview
+
+This plugin offers curated skills that guide Claude through proven software development workflows including test-driven development, architectural patterns, refactoring techniques, and AI development practices.
 
 ## Installation
 
 Add this repository as a Claude Code plugin:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/skill-factory
-   ```
+```bash
+git clone https://github.com/your-username/agentic-craft
+```
 
-2. In Claude Code settings, add the path to this repository as a plugin
+In Claude Code settings, add the path to this repository as a plugin, then restart Claude Code.
 
-3. Restart Claude Code
-
-All skills become available as `skill-factory:skill-name` and are automatically triggered when relevant.
+Skills become available as `agentic-craft:skill-name` and are automatically triggered when relevant to your task.
 
 ## Available Skills
 
 ### Testing
-- **tdd** - Test-driven development workflow
-- **nullables** - Nullables testing pattern for isolation
-- **approval-tests** - Approval testing techniques
-- **bdd-with-approvals** - BDD combined with approval tests
+| Skill | Description |
+|-------|-------------|
+| `tdd` | Test-driven development workflow with red-green-refactor cycle |
+| `nullables` | Nullables testing pattern for dependency isolation |
+| `approval-tests` | Approval testing techniques for complex output verification |
+| `bdd-with-approvals` | Behavior-driven development combined with approval tests |
 
-### Design
-- **hexagonal-architecture** - Ports and adapters architecture
-- **event-modeling** - Event modeling design approach
-- **collaborative-design** - Collaborative design sessions
+### Architecture & Design
+| Skill | Description |
+|-------|-------------|
+| `hexagonal-architecture` | Ports and adapters architecture pattern |
+| `event-modeling` | Event modeling design approach for system design |
+| `collaborative-design` | Facilitated collaborative design sessions |
 
-### Practices
-- **refactoring** - Safe refactoring techniques
-- **refinement-loop** - Iterative refinement process
-- **tech-writing-style** - Technical writing patterns
+### Development Practices
+| Skill | Description |
+|-------|-------------|
+| `refactoring` | Safe refactoring techniques with test coverage |
+| `refinement-loop` | Iterative refinement process for quality improvement |
+| `tech-writing-style` | Technical writing patterns for clear documentation |
 
 ### Developer Tools
-- **git-worktrees** - Git worktree workflows
-- **using-uv** - Python uv package manager
-- **writing-bash-scripts** - Bash script best practices
+| Skill | Description |
+|-------|-------------|
+| `git-worktrees` | Git worktree workflows for parallel development |
+| `using-uv` | Python uv package manager best practices |
+| `writing-bash-scripts` | Bash script development patterns |
 
-### AI
-- **ai-patterns** - AI development patterns
-- **creating-process-files** - Process file creation
-- **creating-hooks** - Claude Code hooks
+### AI Development
+| Skill | Description |
+|-------|-------------|
+| `ai-patterns` | AI development patterns and practices |
+| `creating-process-files` | Process file creation for workflows |
+| `creating-hooks` | Claude Code hooks development |
+
+## Usage Examples
+
+**Start TDD workflow:**
+```
+/tdd
+```
+
+**Apply hexagonal architecture:**
+```
+/hexagonal-architecture
+```
+
+**Refactor code safely:**
+```
+/refactoring
+```
 
 ## How Skills Work
 
-Skills solve the problem of limited context by releasing information gradually:
+Skills release information gradually to preserve context:
 1. **Startup**: Only name + description loaded (~100 tokens per skill)
-2. **When triggered**: Full instructions loaded
-3. **As needed**: References loaded only when the task requires them
-
-This keeps context lean while making rich knowledge available on demand.
-
-## STARTER_CHARACTER
-
-Each skill defines a `STARTER_CHARACTER = [emoji]` at the top. This is a visual indicator that Claude has loaded the skill and is following its instructions.
-
-To activate this, add the following to your global `~/.claude/CLAUDE.md`:
-
-```
-Always start replies with STARTER_CHARACTER + space (default: 🍀). Stack emojis when requested, don't replace.
-```
+2. **Triggered**: Full instructions loaded when relevant
+3. **On demand**: References loaded only when needed
 
 ## Creating New Skills
 
 Open this folder in Claude Code and ask it to create a new skill. It will guide you through the process.
 
-## Updating Best Practices
+## Updating Documentation
 
 ```bash
 ./update-docs
 ```
 
-Pulls latest skill patterns from Anthropic.
+Fetches latest skill patterns from Anthropic.
+
+## Author
+
+Eric Olson
+
+## License
+
+See LICENSE file.

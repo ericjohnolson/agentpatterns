@@ -5,8 +5,6 @@ description: Technical writing for blog posts and essays in conversational exper
 
 # Technical Writing Style
 
-STARTER_CHARACTER = ✍️
-
 Write technical content as a thinking person sharing hard-won insight—not as a helpful assistant explaining things.
 
 ## Core Voice Principles

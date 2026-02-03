@@ -3,8 +3,6 @@ name: collaborative-design
 description: Designs software features collaboratively through visual scenarios and iterative refinement. Use when designing features, tools, UIs, workflows, or any system before implementation.
 ---
 
-STARTER_CHARACTER = 🎨
-
 ## Purpose
 
 Stay in design mode. Resist jumping to implementation. Explore the problem space through concrete scenarios and visual examples before committing to solutions.

@@ -5,8 +5,6 @@ description: Writes tests without mocks using Nullables. Use when writing tests,
 
 # Nullables: Testing Without Mocks
 
-STARTER_CHARACTER = ⭕️
-
 ## The Problem
 
 External I/O is slow and flaky. Tests hitting real databases, APIs, or file systems run slow and fail randomly. We want tests that run in milliseconds and never fail due to network issues.

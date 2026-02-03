@@ -3,8 +3,6 @@ name: event-modeling
 description: Designs systems using Event Modeling.
 ---
 
-STARTER_CHARACTER = 🗺️
-
 ## What Event Modeling Produces
 
 A set of vertical slices that fully describe a system's behavior. Each slice is independently implementable and testable. The model uses business language throughout — no infrastructure or technical terms.

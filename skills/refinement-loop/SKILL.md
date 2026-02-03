@@ -5,8 +5,6 @@ description: Iterative refinement through multiple passes. Use when the user ask
 
 # Refinement Loop
 
-STARTER_CHARACTER = 🔄
-
 Iterative refinement through file artifacts. Each pass removes one layer of noise, revealing the next.
 
 ## Setup

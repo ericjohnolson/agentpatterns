@@ -13,8 +13,6 @@ MODE (user specifies, default: auto)
 - auto: DO NOT ask for confirmation or approval. Proceed through all steps without stopping.
 - human: wait for confirmation at key points
 
-STARTER_CHARACTER = 🔴 for red test, 🌱 for green, 🌀 when refactoring, always followed by a space
-
 ## Core Rules
 
 1. ALL code changes follow TDD - Feature requests mid-stream are NOT exceptions. Write test first, then code.
@@ -71,9 +69,9 @@ STARTER_CHARACTER = 🔴 for red test, 🌱 for green, 🌀 when refactoring, al
     - Reflect on the domain: Is there a missing concept that would make the code more expressive? An object waiting to be extracted? A better way to model the problem?
     - You may introduce domain concepts (new abstractions) as long as you add NO new behavior. Tests must still pass, and there should be no new code added that doesn't have tests.
     - Think about improvements to expressiveness, clarity, simplicity
-    - Say `🧹 Starting refactoring stage` and list planned refactorings
+    - Announce "Starting refactoring stage" and list planned refactorings
     - Implement one at a time, run tests after each
-    - When done (or if none needed), say "🧹 Refactoring complete"
+    - When done (or if none needed), say "Refactoring complete"
 13. Go to step 1 for the next [TEST] comment. Repeat until all planned tests are passing.
 
 ## Final Evaluation

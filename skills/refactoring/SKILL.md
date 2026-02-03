@@ -5,10 +5,6 @@ description: Refactoring process. Invoke immediately when user or document menti
 
 # Refactoring Production Code
 
-STARTER_CHARACTER = 🟣
-
-When starting, announce: "🟣 Using REFACTORING skill".
-
 Work autonomously as much as possible. Start with the simplest thing or file and proceed to the more complex ones.
 
 ## Stages
@@ -61,7 +57,7 @@ For each refactor:
 
 ## 3. Final Evaluation
 
-When you see no more obvious refactoring opportunities, say "🔍 Entering final evaluation."
+When you see no more obvious refactoring opportunities, say "Entering final evaluation."
 
 Shift focus: you've been implementing. Now become a critic. Your job is to find problems, not produce code.
 

@@ -3,8 +3,6 @@ name: creating-hooks
 description: Creates Claude Code hooks.
 ---
 
-STARTER_CHARACTER = 🪝
-
 ## Setup
 
 First, update the reference docs to get the latest from Anthropic:
