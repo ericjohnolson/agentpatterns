@@ -8,15 +8,27 @@ This plugin offers curated skills that guide Claude through proven software deve
 
 ## Installation
 
-Add this repository as a Claude Code plugin:
+### From GitHub
 
-```bash
-git clone https://github.com/your-username/agentic-craft
+In Claude Code, run:
+
+```
+/install-plugin https://github.com/your-username/agentic-craft
 ```
 
-In Claude Code settings, add the path to this repository as a plugin, then restart Claude Code.
+### From Local Directory
 
-Skills become available as `agentic-craft:skill-name` and are automatically triggered when relevant to your task.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/agentic-craft
+   ```
+
+2. In Claude Code, run:
+   ```
+   /install-plugin /path/to/agentic-craft
+   ```
+
+After installation, skills become available as `agentic-craft:skill-name` and are automatically triggered when relevant to your task.
 
 ## Available Skills
 
