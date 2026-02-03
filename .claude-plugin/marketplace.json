@@ -1,0 +1,16 @@
+{
+  "name": "agentic-craft",
+  "owner": {
+    "name": "Eric Olson"
+  },
+  "metadata": {
+    "description": "Skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows"
+  },
+  "plugins": [
+    {
+      "name": "agentic-craft",
+      "source": "./",
+      "description": "Skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows"
+    }
+  ]
+}
