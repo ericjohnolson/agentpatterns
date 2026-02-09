@@ -1,6 +1,18 @@
 ---
 name: event-modeling
-description: Designs systems using Event Modeling.
+description: Designs systems using Event Modeling with STATE_CHANGE, STATE_VIEW, and AUTOMATION slices. Use when designing systems, modeling domain events, creating vertical slices, or when user mentions event modeling.
+license: MIT
+compatibility: Claude Code plugin
+metadata:
+  author: eric-olson
+  version: "1.0.0"
+  workflow: design
+  triggers:
+    - "event modeling"
+    - "event model"
+    - "domain events"
+    - "vertical slices"
+allowed-tools: Read Glob Write AskUserQuestion Skill(bdd-with-approvals) Skill(approval-tests)
 ---
 
 ## What Event Modeling Produces

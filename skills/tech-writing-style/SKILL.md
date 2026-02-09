@@ -1,6 +1,18 @@
 ---
 name: tech-writing-style
 description: Technical writing for blog posts and essays in conversational expert style. Use when drafting technical content, writing blog posts, creating thought pieces, or when user mentions Fowler, Komoroske, or personal voice.
+license: MIT
+compatibility: Claude Code plugin
+metadata:
+  author: eric-olson
+  version: "1.0.0"
+  workflow: writing
+  triggers:
+    - "technical writing"
+    - "blog post"
+    - "essay writing"
+    - "writing style"
+allowed-tools: Read Write
 ---
 
 # Technical Writing Style

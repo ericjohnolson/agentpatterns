@@ -4,13 +4,32 @@
     "name": "Eric Olson"
   },
   "metadata": {
-    "description": "Skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows"
+    "description": "Skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "agentic-craft",
       "source": "./",
-      "description": "Skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows"
+      "description": "Claude Code skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Eric Olson"
+      },
+      "repository": "https://github.com/ericjohnolson/agentic-craft",
+      "keywords": [
+        "tdd",
+        "refactoring",
+        "architecture",
+        "hexagonal",
+        "approval-tests",
+        "event-modeling",
+        "bdd",
+        "ai-patterns",
+        "hooks",
+        "craft"
+      ],
+      "category": "software-development"
     }
   ]
 }

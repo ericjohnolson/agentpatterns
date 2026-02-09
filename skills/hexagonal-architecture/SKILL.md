@@ -1,6 +1,18 @@
 ---
 name: hexagonal-architecture
 description: Applies hexagonal (ports & adapters) architecture. Use when designing application structure, separating domain from infrastructure, creating testable boundaries, or when user mentions ports, adapters, hexagonal, or clean architecture.
+license: MIT
+compatibility: Claude Code plugin
+metadata:
+  author: eric-olson
+  version: "1.0.0"
+  workflow: architecture
+  triggers:
+    - "hexagonal architecture"
+    - "ports and adapters"
+    - "clean architecture"
+    - "domain boundaries"
+allowed-tools: Read Glob Write
 ---
 
 # Hexagonal Architecture

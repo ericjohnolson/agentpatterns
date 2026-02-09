@@ -1,21 +1,23 @@
 ---
 name: ai-patterns
 description: Reference patterns for augmented coding with AI. Use when discussing AI coding patterns, anti-patterns, obstacles, context management, steering AI, or looking up Lexler's patterns collection.
+license: MIT
+compatibility: Claude Code plugin
+metadata:
+  author: eric-olson
+  version: "1.0.0"
+  workflow: reference
+  triggers:
+    - "ai patterns"
+    - "augmented coding patterns"
+    - "AI anti-patterns"
+    - "context management patterns"
+allowed-tools: Bash Read Glob
 ---
 
 # AI Patterns Reference
 
 Patterns for effective AI-augmented software development by Lada Kesseler (github nickname lexler), Llewellyn Falco, Ivett Ördög, and Nitsan Avni.
-
-## First Step: Ensure Repository Exists and Update
-
-```bash
-~/.claude/skills/ai-patterns/scripts/ensure-patterns-repo
-```
-
-## Patterns Location
-
-Base path: `~/.cache/claude-skills/augmented-coding-patterns/documents`
 
 ---
 
@@ -118,15 +120,8 @@ Patterns not on the main journey but useful in practice.
 
 ---
 
-## Browse All
+## Detailed Descriptions
 
-List patterns by category:
-```bash
-ls ~/.cache/claude-skills/augmented-coding-patterns/documents/patterns/
-ls ~/.cache/claude-skills/augmented-coding-patterns/documents/anti-patterns/
-ls ~/.cache/claude-skills/augmented-coding-patterns/documents/obstacles/
-```
+For detailed descriptions of each pattern, see [patterns-catalog.md](references/patterns-catalog.md).
 
-## Online
-
-View at: https://lexler.github.io/augmented-coding-patterns/
+View online at: https://lexler.github.io/augmented-coding-patterns/

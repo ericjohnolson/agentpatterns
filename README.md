@@ -45,44 +45,45 @@ After installation, skills become available as `agentic-craft:skill-name` and ar
 ### Testing
 | Skill | Description |
 |-------|-------------|
-| `tdd` | Test-driven development workflow with red-green-refactor cycle |
-| `nullables` | Nullables testing pattern for dependency isolation |
-| `approval-tests` | Approval testing techniques for complex output verification |
-| `bdd-with-approvals` | Behavior-driven development combined with approval tests |
+| `tdd` | Boundary-focused TDD workflow enforcing L3/L4 altitude testing, property-based tests, and phase separation. Includes references for ZOMBIES checklist and boundary testing patterns. |
+| `approval-tests` | Writes approval tests (snapshot/golden master testing) for Python, JavaScript/TypeScript, or Java. Use for verifying complex output, characterization testing legacy code, or testing combinations. |
+| `bdd-with-approvals` | Scannable BDD tests written in domain language. Creates approved fixtures and executable specifications where correctness validates in seconds. |
 
 ### Architecture & Design
 | Skill | Description |
 |-------|-------------|
-| `hexagonal-architecture` | Ports and adapters architecture pattern |
-| `event-modeling` | Event modeling design approach for system design |
-| `collaborative-design` | Facilitated collaborative design sessions |
+| `hexagonal-architecture` | Applies hexagonal (ports & adapters) architecture with a single decision rule: "Does it do I/O?" determines inside vs outside. |
+| `event-modeling` | Designs systems using Event Modeling with STATE_CHANGE, STATE_VIEW, and AUTOMATION slices. Conversational design through domain events and vertical slices. |
 
 ### Development Practices
 | Skill | Description |
 |-------|-------------|
-| `refactoring` | Safe refactoring techniques with test coverage |
-| `refinement-loop` | Iterative refinement process for quality improvement |
-| `tech-writing-style` | Technical writing patterns for clear documentation |
+| `refactoring` | Structured refactoring with test safety. Four stages: prep, main refactoring, final evaluation, summary. Enforces small changes with test verification. |
+| `tech-writing-style` | Technical writing for blog posts and essays in conversational expert style. References Fowler and Komoroske patterns for personal, concrete-first voice. |
 
-### Developer Tools
+### RPI Methodology (Research, Plan, Implement)
 | Skill | Description |
 |-------|-------------|
-| `git-worktrees` | Git worktree workflows for parallel development |
-| `using-uv` | Python uv package manager best practices |
-| `writing-bash-scripts` | Bash script development patterns |
+| `craft-research` | Phase 1: Spawns parallel subagents to explore codebase and produces a compact research artifact (~200 lines). Prevents thrashing by discovering constraints early. |
+| `craft-plan` | Phase 2: Consumes research artifact and produces compact implementation plan with L3/L4 test specs and phased execution steps. |
+| `craft-implement` | Phase 3: Loads plan and executes phase by phase with strict RED-GREEN-REFACTOR discipline. Verifies each phase before proceeding. |
 
-### AI Development
+### AI & Tooling
 | Skill | Description |
 |-------|-------------|
-| `ai-patterns` | AI development patterns and practices |
-| `creating-process-files` | Process file creation for workflows |
-| `creating-hooks` | Claude Code hooks development |
+| `ai-patterns` | Reference catalog of patterns for AI-augmented development. Covers context management, reliability, and communication patterns by Lexler, Falco, Ordog, and Avni. |
+| `creating-hooks` | Creates Claude Code hooks for lifecycle events (PreToolUse, PostToolUse, SessionStart, etc.). Covers configuration, exit codes, JSON control, and common patterns. |
 
 ## Usage Examples
 
 **Start TDD workflow:**
 ```
 /tdd
+```
+
+**Research before building a feature:**
+```
+/craft-research add user authentication
 ```
 
 **Apply hexagonal architecture:**

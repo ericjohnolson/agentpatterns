@@ -1,6 +1,18 @@
 ---
 name: tdd
-description: Test-driven development (TDD) process used when writing code. Use whenever you are adding any new code, unless the user explicitly asks to skip TDD or the code is exploratory/spike.
+description: Boundary-focused TDD workflow enforcing L3/L4 altitude testing, property-based tests, and phase separation. Use when implementing features that require writing tests and code.
+license: MIT
+compatibility: Claude Code plugin
+metadata:
+  author: eric-olson
+  version: "1.0.0"
+  workflow: testing
+  triggers:
+    - "TDD"
+    - "test driven development"
+    - "red green refactor"
+    - "write tests first"
+allowed-tools: Read Glob Write Bash
 ---
 
 # Test-Driven Development Process
@@ -27,6 +39,10 @@ MODE (user specifies, default: auto)
 8. Refactor at the first opportunity when the tests are green
 9. Test behavior, not implementation - check responses or state, not method calls
 10. Push back when something seems wrong or unclear
+
+## Boundary Testing (Layered Architectures)
+
+For layered architectures, see [boundary-testing.md](references/boundary-testing.md) for L3/L4 altitude testing, property-based tests with fast-check, behavioral assertions, HTTP contract tests, and architecture-specific anti-patterns.
 
 ## Test Planning
 

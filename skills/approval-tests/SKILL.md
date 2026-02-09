@@ -1,6 +1,18 @@
 ---
 name: approval-tests
 description: Writes approval tests (snapshot/golden master testing) for Python, JavaScript/TypeScript, or Java. Use when verifying complex output, characterization testing legacy code, testing combinations, or working with .approved/.received files.
+license: MIT
+compatibility: Claude Code plugin
+metadata:
+  author: eric-olson
+  version: "1.0.0"
+  workflow: testing
+  triggers:
+    - "approval tests"
+    - "snapshot testing"
+    - "golden master testing"
+    - "characterization testing"
+allowed-tools: Read Glob Write Bash
 ---
 
 # Approval Tests
