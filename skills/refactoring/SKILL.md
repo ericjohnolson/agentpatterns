@@ -1,6 +1,18 @@
 ---
 name: refactoring
-description: Refactoring process. Invoke immediately when user or document mentions refactoring, or proactively when code gets too complex or messy.
+description: Refactoring process with test safety. Invoke immediately when user or document mentions refactoring, or proactively when code gets too complex or messy.
+license: MIT
+compatibility: Claude Code plugin
+metadata:
+  author: eric-olson
+  version: "1.0.0"
+  workflow: development
+  triggers:
+    - "refactoring"
+    - "refactor code"
+    - "code cleanup"
+    - "simplify code"
+allowed-tools: Read Glob Write Bash
 ---
 
 # Refactoring Production Code

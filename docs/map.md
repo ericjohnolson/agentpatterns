@@ -17,22 +17,18 @@ skill-factory/
 │   ├── map.md                          # This file - repository structure
 │   └── project.md                      # Project-specific information
 └── skills/                             # Plugin skills (flat structure)
-    ├── tdd/                            # Test-driven development
-    ├── nullables/                      # Nullables testing pattern
-    ├── approval-tests/                 # Approval testing
+    ├── tdd/                            # Test-driven development + boundary testing
+    ├── approval-tests/                 # Approval testing (Python, JS, Java)
     ├── bdd-with-approvals/             # BDD with approval tests
     ├── hexagonal-architecture/         # Ports and adapters architecture
     ├── event-modeling/                 # Event modeling design
-    ├── collaborative-design/           # Collaborative design sessions
     ├── refactoring/                    # Safe refactoring practices
-    ├── refinement-loop/                # Iterative refinement process
     ├── tech-writing-style/             # Technical writing patterns
-    ├── git-worktrees/                  # Git worktree workflows
-    ├── using-uv/                       # Python uv package manager
-    ├── writing-bash-scripts/           # Bash script best practices
-    ├── ai-patterns/                    # AI development patterns
-    ├── creating-process-files/         # Process file creation
-    └── creating-hooks/                 # Claude Code hooks
+    ├── ai-patterns/                    # AI development patterns (self-contained)
+    ├── creating-hooks/                 # Claude Code hooks
+    ├── craft-research/                 # RPI Phase 1: Research
+    ├── craft-plan/                     # RPI Phase 2: Plan
+    └── craft-implement/                # RPI Phase 3: Implement
 ```
 
 ## Purpose

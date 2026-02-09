@@ -1,6 +1,18 @@
 ---
 name: bdd-with-approvals
-description: Scannable BDD tests written in domain language. Use when doing BDD.
+description: Scannable BDD tests written in domain language. Use when doing BDD, writing executable specifications, or creating approved fixtures in domain language.
+license: MIT
+compatibility: Claude Code plugin
+metadata:
+  author: eric-olson
+  version: "1.0.0"
+  workflow: testing
+  triggers:
+    - "BDD"
+    - "behavior driven development"
+    - "executable specifications"
+    - "approved fixtures"
+allowed-tools: Read Glob Write Bash AskUserQuestion Skill(approval-tests)
 ---
 
 # BDD with Approval Tests

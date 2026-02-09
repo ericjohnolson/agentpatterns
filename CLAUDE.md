@@ -10,11 +10,13 @@ This is a Claude Code plugin (`agentic-craft`) providing skills for software dev
 
 ```
 .claude-plugin/
-  plugin.json          # Plugin manifest
+  marketplace.json     # Marketplace and plugin manifest
 skills/
   <skill-name>/
     SKILL.md           # Main skill content (frontmatter + instructions)
     references/        # Optional reference files loaded on demand
+    assets/            # Optional templates and output resources
+    scripts/           # Optional deterministic helper scripts
 ```
 
 ## Common Commands
