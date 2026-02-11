@@ -1,4 +1,4 @@
-# agentic-craft
+# Agent Patterns
 
 A Claude Code plugin providing skills for software development best practices.
 
@@ -13,21 +13,21 @@ This plugin offers curated skills that guide Claude through proven software deve
 In Claude Code, add the marketplace and install the plugin:
 
 ```
-/plugin marketplace add ericjohnolson/agentic-craft
-/plugin install agentic-craft@agentic-craft
+/plugin marketplace add ericjohnolson/agentpatterns
+/plugin install craft@agentpatterns
 ```
 
 ### From Local Directory
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ericjohnolson/agentic-craft
+   git clone https://github.com/ericjohnolson/agentpatterns
    ```
 
 2. In Claude Code, add the marketplace and install:
    ```
-   /plugin marketplace add /path/to/agentic-craft
-   /plugin install agentic-craft@agentic-craft
+   /plugin marketplace add /path/to/agentpatterns
+   /plugin install craft@agentpatterns
    ```
 
 ### Updating
@@ -35,10 +35,10 @@ In Claude Code, add the marketplace and install the plugin:
 To get the latest version:
 
 ```
-/plugin marketplace update agentic-craft
+/plugin marketplace update agentpatterns
 ```
 
-After installation, skills become available as `agentic-craft:skill-name` and are automatically triggered when relevant to your task.
+After installation, skills become available as `craft:skill-name` and are automatically triggered when relevant to your task.
 
 ## Available Skills
 
@@ -96,29 +96,3 @@ After installation, skills become available as `agentic-craft:skill-name` and ar
 /refactoring
 ```
 
-## How Skills Work
-
-Skills release information gradually to preserve context:
-1. **Startup**: Only name + description loaded (~100 tokens per skill)
-2. **Triggered**: Full instructions loaded when relevant
-3. **On demand**: References loaded only when needed
-
-## Creating New Skills
-
-Open this folder in Claude Code and ask it to create a new skill. It will guide you through the process.
-
-## Updating Documentation
-
-```bash
-./update-docs
-```
-
-Fetches latest skill patterns from Anthropic.
-
-## Author
-
-Eric Olson
-
-## License
-
-See LICENSE file.

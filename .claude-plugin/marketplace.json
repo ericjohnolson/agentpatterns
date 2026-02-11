@@ -1,5 +1,5 @@
 {
-  "name": "agentic-craft",
+  "name": "agentpatterns",
   "owner": {
     "name": "Eric Olson"
   },
@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "agentic-craft",
+      "name": "craft",
       "source": "./",
       "description": "Claude Code skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows.",
       "version": "1.0.0",
