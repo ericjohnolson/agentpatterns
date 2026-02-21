@@ -1,5 +1,5 @@
 {
-  "name": "agentpatterns",
+  "name": "craft",
   "owner": {
     "name": "Eric Olson"
   },
@@ -9,26 +9,25 @@
   },
   "plugins": [
     {
-      "name": "craft",
+      "name": "build",
+      "source": "./",
+      "description": "Claude Code skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows.",
+      "version": "1.2.0",
+      "author": {
+        "name": "Eric Olson"
+      },
+      "repository": "https://github.com/ericjohnolson/craft",
+      "category": "software-development"
+    },
+    {
+      "name": "architect",
       "source": "./",
       "description": "Claude Code skills for software development best practices including TDD, refactoring, architecture patterns, and AI development workflows.",
       "version": "1.0.0",
       "author": {
         "name": "Eric Olson"
       },
-      "repository": "https://github.com/ericjohnolson/agentic-craft",
-      "keywords": [
-        "tdd",
-        "refactoring",
-        "architecture",
-        "hexagonal",
-        "approval-tests",
-        "event-modeling",
-        "bdd",
-        "ai-patterns",
-        "hooks",
-        "craft"
-      ],
+      "repository": "https://github.com/ericjohnolson/craft",
       "category": "software-development"
     }
   ]
